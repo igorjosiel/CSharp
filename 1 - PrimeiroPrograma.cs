@@ -7,7 +7,7 @@ namespace PrimeiroPrograma
     //Classe PrimeiroPrograma
     class PrimeiroPrograma
     {
-        //Método principal main
+        //Método principal Main
         static void Main()
         {
             //Chamando a classe Console da biblioteca System e utilizando seu método WriteLine() para imprimir na tela a frase
@@ -16,6 +16,6 @@ namespace PrimeiroPrograma
             //Chamando a classe Console da biblioteca System e utilizando seu método ReadLine() para manter a aplicação aberta
             Console.ReadLine();
 
-        }//Fim do método main
+        }//Fim do método Main
     }//Fim da classe Programa
 }//Fim de namespace
