@@ -11,7 +11,7 @@ namespace PrimeiroProjeto
         static void Main(string[] args)
         {
             //Imprime a frase na tela utilizando o método WriteLine da classe Console
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!\n");
 
         }//Fim do método Main
     }//Fim da classe Program
