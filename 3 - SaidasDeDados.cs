@@ -27,7 +27,7 @@ namespace SaidaDeDados
             Console.WriteLine(idade);
             Console.WriteLine(saldo);
             Console.WriteLine(nome);
-            Console.WriteLine("\n);
+            Console.WriteLine("\n");
 
             //Imprimindo o valor da variável saldo com delimitações de pontos decimais
             Console.WriteLine(saldo.ToString("F2"));
@@ -35,11 +35,11 @@ namespace SaidaDeDados
 
             //Imprimindo o valor da variável saldo com um ponto de separador da parte inteira da parte decimal
             Console.WriteLine(saldo.ToString("F4", CultureInfo.InvariantCulture));
-            Console.WriteLine("\n);
+            Console.WriteLine("\n");
 
             //Imprimindo a string pelo método do Placeholders
             Console.WriteLine("{0} tem {1} anos de idade e tem saldo igual a {2:F2} reais", nome, idade, saldo);
-            Console.WriteLine("\n);
+            Console.WriteLine("\n");
 
             //Imprimindo a string pelo método da interpolação
             Console.WriteLine($"{nome} tem {idade} anos de idade e tem saldo igual a {saldo:F2} reais");
