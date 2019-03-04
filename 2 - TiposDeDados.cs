@@ -33,6 +33,7 @@ namespace TiposDeDados
             Console.WriteLine(genero);
             Console.WriteLine(nome);
             Console.WriteLine(obj);
+            Console.WriteLine("\n");
 
         }//Fim do método Main
     }//Fim da classe TiposDeDados
