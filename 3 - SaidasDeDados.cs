@@ -19,7 +19,7 @@ namespace SaidaDeDados
             //Imprimindo na tela com o comando Console.Write e Console.WriteLine respectivamente
             Console.Write("Bom dia!");
             Console.WriteLine("Boa tarde!");
-            Console.WriteLine("Boa noite!"):
+            Console.WriteLine("Boa noite!");
             Console.WriteLine("\n");
 
             //Imprimindo os valores das variáveis
