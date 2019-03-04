@@ -27,7 +27,7 @@ namespace OperadoresDeAtribuicao
 
             //Imprime o novo valor da variável a na tela
             Console.WriteLine(a);
-            Console.WriteLine("\n);
+            Console.WriteLine("\n");
 
             //Declarando variável do tipo string e inicializando-a com ABC
             string s = "ABC";
