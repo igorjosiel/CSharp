@@ -52,7 +52,9 @@ namespace ExercicioFixacao6
 
             //Imprime a frase na tela com o valor da variável valorSerPago com a formatação do ponto separador da parte inteira da parte decimal e duas casas decimais depois do ponto com os métodos ToString() e CultureInfo.InvariantCulture
             Console.WriteLine("\nO valor a ser pago pelas pecas e: " + valorSerPago.ToString("F2", CultureInfo.InvariantCulture));
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe ExercicioFixacao6
