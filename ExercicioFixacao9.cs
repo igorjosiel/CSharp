@@ -1,7 +1,7 @@
 ﻿//Usando namespace System
 using System;
 
-//Utilizando namespace exercicioFixacao9
+//Utilizando namespace ExercicioFixacao9
 namespace ExercicioFixacao9
 {
     //Classe ExercicioFixacao9
@@ -45,7 +45,10 @@ namespace ExercicioFixacao9
             }//Fim do comando else do método if-else encadeado
 
             //Imprime a frase na tela com o valor da variável duracao, usando o método de impressão Concatenação
-            Console.WriteLine("\nA duracao do jogo foi de: " + duracao + " horas.\n");
+            Console.WriteLine("\nA duracao do jogo foi de: " + duracao + " horas.");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe ExercicioFixacao9
