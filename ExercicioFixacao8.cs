@@ -22,7 +22,9 @@ namespace ExercicioFixacao8
             {
                 //Imprime a frase na tela com os respectivos valores das variáveis pelo método de impressão Concatenação
                 Console.WriteLine("\nOs numeros " + a + " e " + b + " sao multiplos entre si.");
-                Console.WriteLine("\n");
+                
+                //Quebra de linha
+                Console.Write("\n");
 
             }//Fim do comando if do método if-else composto
 
@@ -31,7 +33,9 @@ namespace ExercicioFixacao8
             {
                 //Imprime a frase na tela com os respectivos valores das variáveis usando o método de impressão Concatenação
                 Console.WriteLine("\nOs numeros " + a + " e " + b + " nao sao múltiplos entre si.");
-                Console.WriteLine("\n");
+                
+                //Quebra de linha
+                Console.Write("\n");
 
             }//Fim do comando else do método if-else composto
 
