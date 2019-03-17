@@ -27,7 +27,9 @@ namespace OperadoresDeAtribuicao
 
             //Imprime o novo valor da variável a na tela
             Console.WriteLine(a);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
             //Declarando variável do tipo string e inicializando-a com ABC
             string s = "ABC";
@@ -40,7 +42,9 @@ namespace OperadoresDeAtribuicao
 
             //Imprime o novo valor da variável s
             Console.WriteLine(s);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
             //Declarando variável do tipo int e inicializando-a com o valor 10
             int b = 10;
@@ -56,7 +60,9 @@ namespace OperadoresDeAtribuicao
 
             //Imprime o novo valor da variável b na tela
             Console.WriteLine(b);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
             //Declarando variável do tipo int e inicializando-a com o valor 10
             int val1 = 10;
@@ -66,7 +72,9 @@ namespace OperadoresDeAtribuicao
 
             //Imprime a frase na tela com os valores das variáveis val1 e val2 utilizando o método de impressão Placeholders
             Console.WriteLine("Valor de val1 e {0} e o valor de val2 e {1}", val1, val2);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
             //Declarando variável do tipo int e inicializando-a com o avlor 10
             int num1 = 10;
@@ -76,7 +84,9 @@ namespace OperadoresDeAtribuicao
 
             //Imprime a frase na tela com os valores das variáveis num1 e num2 utilizando o método de impressão Placeholders
             Console.WriteLine("Valor de num1 e {0} e o valor de num2 e {1}", num1, num2);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe OperadorDeAtribuicao
