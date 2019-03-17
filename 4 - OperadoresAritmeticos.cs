@@ -42,7 +42,9 @@ namespace OperadoresAritméticos
             Console.WriteLine(delta);
             Console.WriteLine(x1);
             Console.WriteLine(x2);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe OperadoresAritméticos
