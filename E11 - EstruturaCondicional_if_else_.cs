@@ -18,7 +18,9 @@ namespace EstruturaCondicional_if_else_
             {
                 //Imprime a frase na tela com o valor da variável x usando o método de impressão Concatenação
                 Console.WriteLine(x + " e maior que 5");
-                Console.WriteLine("\n");
+                
+                //Quebra de linha
+                Console.Write("\n");
 
             }//Fim do método if-else simples
 
@@ -33,7 +35,9 @@ namespace EstruturaCondicional_if_else_
             {
                 //Imprime a frase na tela
                 Console.WriteLine("Par!");
-                Console.WriteLine("\n");
+                
+                //Quebra de linha
+                Console.Write("\n");
 
             }//Fim do comando if do método if-else composto
 
@@ -42,7 +46,9 @@ namespace EstruturaCondicional_if_else_
             {
                 //Imprime a frase na tela
                 Console.WriteLine("Impar!");
-                Console.WriteLine("\n");
+                
+                //Quebra de linha
+                Console.Write("\n");
 
             }//Fim do comando else do método if-else composto
 
@@ -58,7 +64,9 @@ namespace EstruturaCondicional_if_else_
             {
                 //Imprime a frase na tela
                 Console.WriteLine("Bom dia!");
-                Console.WriteLine("\n");
+                
+                //Quebra de linha
+                Console.Write("\n");
 
             }//Fim do comando if do método if-else encadeado
 
@@ -67,7 +75,9 @@ namespace EstruturaCondicional_if_else_
             {
                 //Imprime a frase na tela
                 Console.WriteLine("Boa tarde!");
-                Console.WriteLine("\n");
+                
+                //Quebra de linha
+                Console.Write("\n");
 
             }//Fim do comando else-if do método if-else encadeado
 
@@ -76,7 +86,9 @@ namespace EstruturaCondicional_if_else_
             {
                 //Imprime a frase na tela
                 Console.WriteLine("Boa noite!");
-                Console.WriteLine("\n");
+                
+                //Quebra de linha
+                Console.Write("\n");
 
             }//Fim do comando else do método if-else encadeado
 

@@ -48,7 +48,9 @@ namespace Casting
 
             //Imprimindo o valor da variável resultado na tela
             Console.WriteLine(resultado);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe Casting

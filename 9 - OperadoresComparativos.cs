@@ -32,7 +32,9 @@ namespace OperadoresComparativos
             Console.WriteLine(c6);
             Console.WriteLine(c7);
             Console.WriteLine(c8);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe OperadoresComparativos

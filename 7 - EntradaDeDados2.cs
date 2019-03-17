@@ -44,7 +44,9 @@ namespace EntradaDeDados2
             Console.WriteLine(sexo);
             Console.WriteLine(idade);
             Console.WriteLine(altura.ToString("F2", CultureInfo.InvariantCulture));
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe EntradaDeDados2

@@ -33,7 +33,9 @@ namespace EntradaDeDados
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe EntradaDeDados
