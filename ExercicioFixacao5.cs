@@ -34,7 +34,9 @@ namespace ExercicioFixacao5
 
             //Imprime a frase na tela com os respectivos valores das variáveis utilizando o método de impressão Concatenação e utilizando o método ToString para fixar 2 casas decimais depois do ponto e o método CultureInfo.InvariantCulture para fixar o ponto separador da parte inteira da parte decimal
             Console.WriteLine("\nO funcionario " + nomeFuncionario + " trabalha " + horasTrabalhadas + " horas por dia e recebe U$ " + valorPorHora + " por hora trabalhada, recebendo um salario de U$ " + salario.ToString("F2", CultureInfo.InvariantCulture));
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe ExercicioFixacao5
