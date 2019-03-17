@@ -52,7 +52,9 @@ namespace ExercicioFixacao1
             Console.WriteLine("Ultimo nome: " + ultimoNome);
             Console.WriteLine("Idade: " + idade);
             Console.WriteLine("Altura: " + altura.ToString("F2", CultureInfo.InvariantCulture));
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe ExercicioFixacao1
