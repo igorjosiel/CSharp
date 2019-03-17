@@ -82,7 +82,10 @@ namespace ExercicioFixacao10
             }//Fim do comando else do método if-else encadeado
 
             //Imprime a frase na tela com o valor da variável valorPagar, utilizando para isso o método ToString("F2", CultureInfo.InvariantCulture) para fixar o ponto separador da parte inteira da parte decimal e fixar 2 casas decimais depois do ponto
-            Console.WriteLine("\nValor a pagar: R$ " + valorPagar.ToString("F2", CultureInfo.InvariantCulture) + ".\n");
+            Console.WriteLine("\nValor a pagar: R$ " + valorPagar.ToString("F2", CultureInfo.InvariantCulture));
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe ExercicioFixacao10
