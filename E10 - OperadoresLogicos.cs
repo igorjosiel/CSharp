@@ -20,7 +20,9 @@ namespace OperadoresLogicos
             Console.WriteLine(c1);
             Console.WriteLine(c2);
             Console.WriteLine(c3);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe OperadoresLogicos
