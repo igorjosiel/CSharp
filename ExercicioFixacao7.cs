@@ -21,7 +21,9 @@ namespace ExercicioFixacao7
             {
                 //Imprime a frase na tela
                 Console.WriteLine("Numero negativo!");
-                Console.WriteLine("\n");
+                
+                //Quebra de linha
+                Console.Write("\n");
 
             }//Fim do comando if do método if-else composto
 
@@ -30,7 +32,9 @@ namespace ExercicioFixacao7
             {
                 //Imprime a frase na tela
                 Console.WriteLine("Numero positivo!");
-                Console.WriteLine();
+                
+                //Quebra de linha
+                Console.Write();
 
             }//Fim do comando else do método if-else composto
 
