@@ -25,7 +25,9 @@ namespace ExercicioFixacao3
 
             //Imprime a frase na tela com o valor da variável area usando o método de impressão Placeholders e usando o comando ToString para fixar 4 casas decimais depois do ponto
             Console.WriteLine("\nO valor da area do circulo e: {0}", area.ToString("F4", CultureInfo.InvariantCulture));
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe ExercicioFixacao3
