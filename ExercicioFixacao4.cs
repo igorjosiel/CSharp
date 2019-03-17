@@ -24,7 +24,9 @@ namespace ExercicioFixacao4
 
             //Imprime a frase na tela e os valores das variáveis respectivamente a, b, c, d e diferenca usando o método de impressão Placeholders
             Console.WriteLine("\nA diferenca do produto de {0} e {1} pelo produto de {2} e {3} e: {4}", a, b, c, d, diferenca);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe ExercicioFixacao4
