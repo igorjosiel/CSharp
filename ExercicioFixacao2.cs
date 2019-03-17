@@ -22,7 +22,9 @@ namespace ExercicioFixacão2
 
             //Imprime a frase com os respectivos valores das variáveis num1, num2 e resultado utilizando o método de impressão Placeholders
             Console.WriteLine("\nA soma de {0} e {1} e: {2}", num1, num2, resultado);
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe ExercicioFixacao2
