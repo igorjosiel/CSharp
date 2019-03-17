@@ -23,6 +23,9 @@ namespace Funcoes
 
             //Imprime a frase na tela com o valor da variável resultado utilizando o modelo de impressão Concatenação
             Console.WriteLine("Maior = " + resultado + ".\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
 
