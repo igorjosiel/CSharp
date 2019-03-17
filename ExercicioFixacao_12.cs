@@ -23,7 +23,7 @@ namespace ExercicioFixacao12
             //Usando método condicional if-else encadeado para testar as condições. Se a condição no comando if for verdadeira, executa o bloco de instruções e termina o método, senão, pula para o próximo teste
             if (salario > 0.0 && salario <= 2000.00)
             {
-                //Imprime a frase na tela
+                //Imprime a frase na tela com a quebra de linha
                 Console.WriteLine("\nIsento do imposto de renda.\n");
 
                 //Variável imposto recebe o valor double 0.0
@@ -55,7 +55,7 @@ namespace ExercicioFixacao12
 
             }//Fim do comando else do método if-else encadeado
 
-            //Imprime a frase na tela com o valor da variável imposto e utilizando o método ToString("F2", CultureInfo.InvariantCulture) para fixar duas casas decimais depois do ponto decimal e fixar o ponto separador da parte inteira da parte decimal
+            //Imprime a frase na tela com o valor da variável imposto e utilizando o método ToString("F2", CultureInfo.InvariantCulture) para fixar duas casas decimais depois do ponto decimal e fixar o ponto separador da parte inteira da parte decimal e com a quebra de linha
             Console.WriteLine("\nO imposto a ser pago por voce e: R$ " + imposto.ToString("F2", CultureInfo.InvariantCulture) + ".\n");
 
         }//Fim do método Main
