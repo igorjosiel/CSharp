@@ -25,7 +25,9 @@ namespace EstruturaRepetitiva_While_
 
                 //Imprime o valor da variável raiz utilizando o método ToString("F3", CultureInfo.InvariantCulture) para fixar 3 casas decimais depois do ponto separador da parte inteira da parte decimal, e fixar o ponto separador
                 Console.WriteLine(raiz.ToString("F3", CultureInfo.InvariantCulture));
-                Console.WriteLine("\n");
+                
+                //Quebra de linha
+                Console.Write("\n");
 
                 //Imprime a frase na tela
                 Console.Write("Digite um novo numero: ");
@@ -37,7 +39,9 @@ namespace EstruturaRepetitiva_While_
 
             //Imprime a frase na tela
             Console.WriteLine("Numero negativo!");
-            Console.WriteLine("\n");
+            
+            //Quebra de linha
+            Console.Write("\n");
 
         }//Fim do método Main
     }//Fim da classe EstruturaRepetitiva_While_
