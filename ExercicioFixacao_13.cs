@@ -21,6 +21,8 @@ namespace ExercicioFixacao13
             {
                 //Imprime a frase na tela
                 Console.WriteLine("Senha Invalida.");
+                
+                //Quebra de linha
                 Console.Write("\n");
 
                 //Imprime a frase na tela
@@ -33,6 +35,8 @@ namespace ExercicioFixacao13
 
             //Imprime a frase na tela
             Console.WriteLine("Acesso permitido!");
+            
+            //Quebra de linha
             Console.Write("\n");
 
         }//Fim do método Main
