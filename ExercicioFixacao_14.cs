@@ -52,8 +52,10 @@ namespace ExercicioFixacao14
 
                 }//Fim do comando else do método if-else encadeado
 
-                //Imprime a frase na tela
+                //Quebra de linha
                 Console.Write("\n");
+                
+                //Imprime a frase na tela
                 Console.WriteLine("Digite uma nova coordenada: ");
 
                 //Atribui valores às variáveis x e y com valores digitados pelo usuário via teclado, usando o método double.Parse(Console.ReadLine()) para converter as strings em valores do tipo double
@@ -62,6 +64,7 @@ namespace ExercicioFixacao14
 
             }//Fim do método repetitivo while
 
+            //Quebra de linha
             Console.Write("\n");
 
         }//Fim do método Main
