@@ -50,7 +50,7 @@ namespace TratamentoDeExcecoes
                 //Imprime a frase na tela
                 Console.WriteLine("End!!!");
 
-            }//Fim do comando finaly
+            }//Fim do comando finally
 
         }//Fim do método Main
     }//Fim da classe TratamentoDeExcecao
